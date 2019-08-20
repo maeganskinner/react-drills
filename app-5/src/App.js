@@ -19,3 +19,14 @@ class App extends Component {
 }
 
 export default App;
+
+class Image extends Component {
+  render(){
+    return (
+      <div>
+        <img src = {this.props.url} />
+        <caption> Caption Here </caption>
+      </div>
+    )
+  }
+}
